@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+        <p><label for="username">Username:</label> 
+            <input required placeholder="Enter your name" type="text" id="username" name="username" size="25" maxlength="20">
+        </p>
+        <p><label for="password">Password:</label> 
+            <input required placeholder="Enter password" type="password" id="password" name="password" size="25" maxlength="20">
+        </p>
+        <p><label for="comments">Comments:</label> 
+            <textarea required placeholder="Enter comment" name="comments" id="comments" cols="30" rows="10"></textarea>
+        </p>
+        <p>Gender: 
+            <input required type="radio" name="Gender" value="male"> Male
+            <input required type="radio" name="Gender" value="female"> Female
+            <input required type="radio" name="Gender" value="others"> Others
+        </p>
+        <p>Select more than one option: <br>
+            <input type="checkbox" name="answer" value="pf"> PF <br>
+            <input type="checkbox" name="answer" value="oop"> OOP <br>
+            <input type="checkbox" name="answer" value="ds"> DS <br>
+            <input type="checkbox" name="answer" value="dbms"> DBMS <br>
+        </p>
+        <p>Select Country: <br>
+            <select name="country" id="">
+                <option value="Pakistan"> Pakistan</option>
+                <option selected value="India">India</option>
+                <option value="China">China</option>
+                <option value="Australia">Australia</option>
+            </select>
+        </p>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="date" id="dob"> <br>
+
+        <label for="email">Enter your Email:</label>
+        <input type="email" name="email" id="email"> <br>
+
+        <label for="url">Enter URL</label>
+        <input type="url" name="" id="url"> <br>
+
+        <label for="search">Search</label>
+        <input type="url" name="" id="search"> <br>
+
+        <p>Select file: <br>
+            <input type="file">
+        </p>
+        <p>Submit your response <br>
+            <input type="submit">
+            <button>Cancel</button>
+            <input type="image" src="images/submit.png" alt="" >
+            <!-- <input type="hidden" name="">submit -->
+        </p>
+    </fieldset>
+    </form>
+    <a href="4thclass.html">4thclass</a>
+</body>
+</html>
